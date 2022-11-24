@@ -3,6 +3,8 @@ dnl Process this file with autoconf to produce a configure script.
 dnl !!! WHEN ADDING NEW CONFIGURE TESTS, PLEASE ADD CODE TO MAIN.C !!!
 dnl !!! TO DUMP THEIR RESULTS WHEN MUTT -V IS CALLED            !!!
 
+AM_GNU_GETTEXT_VERSION(0.18.1)
+
 AC_INIT([mutt],[m4_esyscmd(tr -d \\n <VERSION)])
 AC_CONFIG_SRCDIR(mutt.h)
 AM_INIT_AUTOMAKE
