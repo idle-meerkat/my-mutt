@@ -1,4 +1,11 @@
-./configure --with-ssl --with-curses --with-gnutls --with-sasl --with-zlib \
-	--with-idn2 --enable-pop --enable-imap \
+./configure --with-ssl \
+	--with-curses \
+	--with-gnutls \
+	--with-sasl \
+	--with-zlib \
+	--with-idn2 \
+	--enable-pop \
+	--enable-imap \
 	--enable-smtp \
+	--enable-hcache \
 	--prefix=/home/user/opt/mutt/
